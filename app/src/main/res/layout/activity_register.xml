@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="220dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:contentDescription="App logo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bike" />
+
+            <TextView
+                android:id="@+id/signUpTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Create Account"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="Step into a place where taste meets comfort and joy."
+                android:textColor="#B3FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- White bottom card -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signupform_bg"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp">
+
+
+
+            <EditText
+                android:id="@+id/nameTxt"
+                style="@style/RegisterField"
+                android:layout_marginBottom="12dp"
+                android:hint="@string/enter_your_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailTxt"
+                style="@style/RegisterField"
+                android:layout_marginBottom="12dp"
+                android:hint="Enter Your Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passowrdTxt"
+                style="@style/RegisterField"
+                android:layout_marginBottom="12dp"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/confirmpasswordTxt"
+                style="@style/RegisterField"
+                android:hint="Confirm Your Password"
+                android:inputType="textPassword" />
+
+
+            <CheckBox
+                android:id="@+id/termsCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:button="@drawable/checkbox_selector"
+                app:buttonTint="@null"
+                app:useMaterialThemeColors="false"
+                android:paddingStart="8dp"
+                android:text="I agree to the Terms &amp; Conditions and Privacy Policy"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/signupTxt"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/gold"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="@color/on_gold"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="27dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:indeterminateTint="@color/gold"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/loginLinkTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Already have an account? Log in"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Food Items</string>
+    <string name="food_menu">Food Delivery</string>
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="about">About</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="fries">Fries</string>
+    <string name="coca">Coca Cola</string>
+    <string name="mirinda">Mirinda</string>
+    <string name="pepsi">Pepsi</string>
+    <string name="About_food_app">About</string>
+    <string name="about_logo_desc">Food Delivery</string>
+    <string name="app_name_full">Food Delivery</string>
+    <string name="about_mission_title">Our Mission</string>
+    <string name="about_mission_body">We are dedicated to bringing your favorite local flavors straight to your doorstep. By partnering with the best kitchens in town, we ensure that hot, fresh, and delicious meals are just a few taps away. Your convenience and cravings are our top priority.</string>
+    <string name="about_features_title">Why Order From Us?</string>
+    <string name="about_legal"> </string>
+    <string name="about_contact_support">About</string>
+    <string name="why_order_from_us">Super-fast delivery directly to your door\n• Real-time live order tracking\n• Hundreds of top-rated local restaurants to choose from\n• Secure, contactless, and flexible payment options</string>
+    <string name="welcome_to_menu_app">Welcome to MenuApp</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logout">Logout</string>
+    <string name="default_web_client_id">YOUR_DEFAULT_WEB_CLIENT_ID</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="remember_me">Remember me</string>
+    <string name="view_cart">🛒 View Cart</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style android:name="authlabel">
+        <item android:name="android:layout_width">wrap_content</item>
+        <item android:name="android:layout_height">wrap_content</item>
+        <item android:name="android:layout_marginTop">12dp</item>
+        <item android:name="android:layout_marginBottom">6dp</item>
+        <item android:name="android:textColor">#333333</item>
+        <item android:name="android:textSize">13sp</item>
+    </style>
+    <style android:name="authfield">
+        <item android:name="android:layout_width">match_parent</item>
+        <item android:name="android:layout_height">52dp</item>
+        <item android:name="android:background">@drawable/auth_field_bg</item>
+        <item android:name="android:paddingHorizontal">20dp</item>
+        <item android:name="android:textColor">#111111</item>
+        <item android:name="android:textColorHint">#9E9E9E</item>
+        <item android:name="android:textSize">14sp</item>
+        <item android:name="android:singleLine">true</item>
+    </style>
+</resources>

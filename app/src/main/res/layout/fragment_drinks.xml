@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drink_cream"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    tools:context=".activities.food">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="28dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="28dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/fragmentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/drinks"
+            android:textColor="@color/drink_brown"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:fontFamily="sans"
+            android:letterSpacing="-0.02" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:text="Refreshing drinks for every mood"
+            android:textColor="@color/drink_muted"
+            android:textSize="15sp" />
+
+        <!-- Coca-Cola Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg_drink_cola"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="105dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="14dp"
+                android:contentDescription="@string/coca"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/coca_cola" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coca"
+                    android:textColor="@color/drink_brown"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Classic taste, always refreshing."
+                    android:textColor="@color/drink_muted"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="2dp" />
+
+                <View
+                    android:layout_width="42dp"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/bg_accent_peach" />
+
+
+                <Button
+                    android:id="@+id/btnAddCola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/gold"
+                    android:text="Add to cart"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Mirinda Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/bg_drink_mirinda"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="105dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="14dp"
+                android:contentDescription="@string/mirinda"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mirinda" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mirinda"
+                    android:textColor="@color/drink_brown"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Bright, bold orange refreshment."
+                    android:textColor="@color/drink_muted"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="2dp" />
+
+                <View
+                    android:layout_width="42dp"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/bg_accent_sage" />
+
+
+                <Button
+                    android:id="@+id/btnAddMirinda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/gold"
+                    android:text="Add to cart"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Pepsi Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/bg_drink_pepsi"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="105dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="14dp"
+                android:contentDescription="@string/pepsi"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pepsi" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/pepsi"
+                    android:textColor="@color/drink_brown"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Bold taste. Endless refreshment."
+                    android:textColor="@color/drink_muted"
+                    android:textSize="13sp"
+                    android:lineSpacingExtra="2dp" />
+
+                <View
+                    android:layout_width="42dp"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/bg_accent_blue" />
+
+                <Button
+                    android:id="@+id/btnAddPepsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/gold"
+                    android:text="Add to cart"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

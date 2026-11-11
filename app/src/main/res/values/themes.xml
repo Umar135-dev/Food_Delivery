@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Main app theme: Material3 (AppCompat-based), used after the splash -->
+    <style name="Theme.Menu_App" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <!-- Your existing theme items -->
+
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">#FFE8D1</item>
+        <item name="colorOnPrimaryContainer">@color/dark_header</item>
+        <item name="colorSecondary">@color/orange_primary</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Splash theme: only for the launcher activity (AuthActivity) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_header</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Menu_App</item>
+    </style>
+
+
+    <style name="NavPillIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#FFE8D1</item>
+        <item name="android:width">48dp</item>
+        <item name="android:height">26dp</item>
+    </style>
+
+    <style name="CustomMenuTextAppearance" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <!-- Existing style (dark screens, e.g. Login): unchanged, color tags removed -->
+    <style name="AuthField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/hint_grey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- NEW: label above each field on the register screen -->
+    <style name="AuthLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- NEW: light pill input for the register screen -->
+    <style name="RegisterField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/auth_field_bg</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textColor">#111111</item>
+        <item name="android:textColorHint">#9E9E9E</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="gold">#F9C20E</color>
+    <color name="offwhite">#FAFAFA</color>
+    <color name="nearblack">#0B0B0B</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="bg_dark">#0F0D0B</color>
+    <color name="surface_dark">#1C1815</color>
+    <color name="field_dark">#2A2420</color>
+    <color name="field_stroke">#3D352E</color>
+    <color name="hint_grey">#A89F94</color>
+    <color name="on_gold">#1A1206</color>
+
+    <color name="drink_cream">#FFF8F0</color>
+    <color name="drink_brown">#432615</color>
+    <color name="drink_muted">#8B7564</color>
+    <color name="drink_peach">#FFF0E2</color>
+    <color name="drink_sage">#F0F2E5</color>
+    <color name="drink_blue">#EDF4F9</color>
+
+</resources>

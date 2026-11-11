@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer gold ring -->
+    <item
+        android:width="190dp"
+        android:height="190dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="135"
+                android:endColor="@color/orange_primary"
+                android:startColor="@color/gold" />
+        </shape>
+    </item>
+
+    <!-- Inner dark disc, which leaves a ring -->
+    <item
+        android:width="174dp"
+        android:height="174dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="@color/dark_header" />
+        </shape>
+    </item>
+
+    <!-- Logo, kept well inside the circle so nothing is cropped -->
+    <item
+        android:width="105dp"
+        android:height="105dp"
+        android:gravity="center"
+        android:drawable="@drawable/bike" />
+</layer-list>
